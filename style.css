@@ -1,0 +1,11 @@
+ h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    }
+.solid {
+  color: #131313;
+  letter-spacing: .55em;
+  }

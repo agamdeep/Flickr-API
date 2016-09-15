@@ -1,0 +1,32 @@
+<!doctype html>
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+    <title>NASA Pics</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.js"></script>
+    <script type="text/javascript" src="IBM_Exercise_script.js"></script>
+  </head>
+  <body bgcolor="Beige">
+    <div class="container" id="listOfImages">
+      <h1 class="solid">NASA Pictures Via Flickr API</h1>
+      <p>
+      <h2 style="text-align:center">Agam Deep Arora </br>
+      agamdeep@buffalo.edu</h2>
+      </p>
+      <form id="searchForm">
+        <b>Sort the Images by their respective Titles/Names.</b>
+        <select id="listOfImages">
+          <option value="" ></option>
+          <option value="Descending">Top to Bottom </option>
+          <option value="Ascending">Bottom to Top </option>
+        </select>
+      </form>
+      <ul id="items"></ul>
+      <p class="items__description"></p>
+    </div>
+    <div class="snackbar">
+      <div class="snackbar__text"></div>
+      <button type="button" id="toggleBtn"></button>
+    </div>
+    
+  </body>
+</html>
